@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pelucas", "Pelucas\Pelucas.csproj", "{2E8CCADF-3C4A-47D8-BC15-12F43F5A5172}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pelucas.Common", "Pelucas.Common\Pelucas.Common.csproj", "{6AA9ADFE-65DD-4B54-BF30-E140B0D41E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E8CCADF-3C4A-47D8-BC15-12F43F5A5172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E8CCADF-3C4A-47D8-BC15-12F43F5A5172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E8CCADF-3C4A-47D8-BC15-12F43F5A5172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E8CCADF-3C4A-47D8-BC15-12F43F5A5172}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AA9ADFE-65DD-4B54-BF30-E140B0D41E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AA9ADFE-65DD-4B54-BF30-E140B0D41E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AA9ADFE-65DD-4B54-BF30-E140B0D41E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AA9ADFE-65DD-4B54-BF30-E140B0D41E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44916CAD-5686-40ED-879E-9F7325185856}
+	EndGlobalSection
+EndGlobal

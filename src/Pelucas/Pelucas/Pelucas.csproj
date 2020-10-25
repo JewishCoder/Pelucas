@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Configuration\ApiConfiguration.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Configuration\ApiConfiguration.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ReactiveUI.Events.WPF" Version="12.1.1" />
+    <PackageReference Include="ReactiveUI.WPF" Version="12.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pelucas.Common\Pelucas.Common.csproj" />
+  </ItemGroup>
+
+</Project>

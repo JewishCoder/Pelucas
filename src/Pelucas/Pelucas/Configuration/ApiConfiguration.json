@@ -1,0 +1,8 @@
+﻿{
+  "Name": "OMDb APO",
+  "EndPoint": "http://www.omdbapi.com/",
+  "Key": {
+    "Name": "apikey",
+    "Value": ""
+  }
+}
